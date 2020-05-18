@@ -1,16 +1,14 @@
 import React from "react";
 
 // Relative imports
-import { Header, HeaderItem } from "Styles/styles.pages";
+import { Header } from "Components";
+import { Body } from "Styles/pages";
 
 export const Home = () => {
   return (
     <>
-      <Header>
-        <HeaderItem>Projects</HeaderItem>
-        <HeaderItem>Contact</HeaderItem>
-      </Header>
-      <div>Home</div>
+      <Header />
+      <Body>Home</Body>
     </>
   );
 };

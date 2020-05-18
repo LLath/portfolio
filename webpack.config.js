@@ -72,6 +72,7 @@ module.exports = {
      */
     alias: {
       Styles: path.resolve(__dirname, "src/styles/"),
+      Components: path.resolve(__dirname, "src/components/index.js"),
     },
   },
   devServer: {
