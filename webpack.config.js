@@ -71,8 +71,7 @@ module.exports = {
      * @todo place relative paths here
      */
     alias: {
-      Assets: path.resolve(__dirname, "src/Assets/"),
-      Settings: path.resolve(__dirname, "./settings.js"),
+      Styles: path.resolve(__dirname, "src/styles/"),
     },
   },
   devServer: {
